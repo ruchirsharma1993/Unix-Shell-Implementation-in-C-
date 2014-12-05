@@ -1,3 +1,10 @@
+/*
+=======================================================
+UNIX SHELL IMPLEMENTATION IN C++
+Author: RUCHIR SHARMA
+Email ID: ruchir.sharma@students.iiit.ac.in
+=======================================================
+*/
 #include<stdio.h>
 #include<string>
 #include <unistd.h> 
