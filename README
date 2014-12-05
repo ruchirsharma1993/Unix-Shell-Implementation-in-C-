@@ -1,6 +1,6 @@
-======================================================================================================== 
-                                      UNIX SHELL IMPLEMENTATION IN C++
-========================================================================================================
+====================================================================== 
+                     UNIX SHELL IMPLEMENTATION IN C++
+======================================================================
 This program simulates the working of command line interface in Unix-like environment. Implemented Functionalities are as under:
 1. Execute all the External commands (ls, clear, vi etc.)
 2. Implement Internal commands: cd, pwd
@@ -11,9 +11,9 @@ This program simulates the working of command line interface in Unix-like enviro
 7. Pipes “|” (multiple) (Ex: ls | grep 'a' | wc)
 
 
-========================================================================================================
-                                       Input/Output Format
-========================================================================================================
+======================================================================
+                          Input/Output Format
+======================================================================
 
 Input from the 'stdin' in an infinite loop till an “exit” is entered.
 The corresponding output should be printed to 'stdout'.
@@ -31,10 +31,9 @@ Bye...
 bash prompt:~$
 
 
-========================================================================================================
-                                          Implementation Details
-========================================================================================================
-
+======================================================================
+                         Implementation Details
+======================================================================
 
 The file.cpp contains the main function which takes the input from user and checks it for pipeline. If pipeline exist it processes the data separately else it passes the data to the functions. 
 
