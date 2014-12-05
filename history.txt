@@ -1,0 +1,15 @@
+cat
+cat
+cat
+cat
+cat
+cat
+cat
+cat
+cat
+cat
+cat
+cat
+cat
+cat
+cat asd.h | wc | wc

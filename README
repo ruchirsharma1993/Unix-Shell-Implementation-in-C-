@@ -1,0 +1,23 @@
+The file.cpp contains the main function which takes the input from user and checks it for pipeline. If pipeline exist it processes the data separately else it passes the data to the functions. 
+
+int startprocess(char arr[], int i)
+This function is the initial function which is called for checking the REDIRECTIONS. It passes the processed output to function process
+
+int process(char arr[])
+This function does the major part of the program. It tokenizes and checks for various possibilities of commands. The types of commands that are checked are as under:
+1) Internal commands: pwd and cd
+2) echo commands, setting and getting environment variables
+3) history
+4) ! : (i) !number (ii) !string (iii) !!
+5) External commands
+
+
+Helper functions:
+void phist()
+Prints the history text file on the STDIN
+
+void writehist(char arr[])
+checks whether the threshold is crossed or not in the text file. If it is than rotates and shifts the data. And then write the character array which is input to the function in the text file.
+
+int check(char c)
+This functions takes a char as input and checks whether its a digit or +/-. Returns 1 if it is else return -1
